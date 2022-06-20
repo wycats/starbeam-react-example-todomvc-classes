@@ -1,4 +1,4 @@
-import { reactive } from '../vendor/starbeam-react.js';
+import { reactive } from '@starbeam/js';
 
 interface Todo {
   id: string;

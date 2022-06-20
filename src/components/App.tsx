@@ -1,6 +1,6 @@
 import './App.css';
 import '@modules/todomvc-app-css/index.css';
-import { useStarbeam, ReactiveElement } from '../vendor/starbeam-react.js';
+import { useStarbeam, ReactiveElement } from '@starbeam/react';
 import { FormEvent, ReactElement } from 'react';
 import classNames from 'classnames';
 import { formData } from '../utils';

@@ -1,4 +1,4 @@
-import { Cell, Resource } from './vendor/starbeam-react';
+import { Cell, Resource } from '@starbeam/core';
 import RouteRecognizer from 'route-recognizer';
 
 export interface TodoItem {

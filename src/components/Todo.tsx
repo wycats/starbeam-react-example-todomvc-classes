@@ -2,7 +2,8 @@ import classNames from 'classnames';
 import { FormEvent } from 'react';
 import { TodoItem } from '../router';
 import { formData } from '../utils';
-import { Cell, useStarbeam } from '../vendor/starbeam-react';
+import { Cell } from '@starbeam/core';
+import { useStarbeam } from '@starbeam/react';
 
 export function Todo({
   todo,
